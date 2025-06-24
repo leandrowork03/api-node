@@ -1,8 +1,8 @@
 const RepositoryPessoa = require("../repository/pessoa");
 
-//2
 const repo = new RepositoryPessoa();
-class servicoPessoa{
+
+class ServicePessoa {
     PegarTodos(){
         return repo.PegarTodos();
     }
@@ -20,4 +20,6 @@ class servicoPessoa{
     }
 }
 
-module.exports = servicoPessoa;
+module.exports = ServicePessoa;
+
+//3
